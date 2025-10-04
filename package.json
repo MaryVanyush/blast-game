@@ -1,0 +1,36 @@
+{
+  "name": "blast-game",
+  "version": "1.0.0",
+  "description": "Blast puzzle game with TypeScript and Cocos Creator 2.4.x",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch",
+    "start": "webpack serve --mode development --port 8080",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "clean": "rimraf dist"
+  },
+  "keywords": ["game", "puzzle", "blast", "typescript", "cocos-creator"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.22.0",
+    "@babel/preset-env": "^7.22.0",
+    "@babel/preset-typescript": "^7.22.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.8.0",
+    "eslint": "^8.42.0",
+    "html-webpack-plugin": "^5.5.0",
+    "rimraf": "^5.0.0",
+    "style-loader": "^3.3.0",
+    "ts-loader": "^9.4.0",
+    "typescript": "^5.1.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.0",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {}
+}
