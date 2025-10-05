@@ -2,14 +2,17 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
-module.exports = {
-  entry: './src/main.ts',
-  output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
-    clean: true,
-    publicPath: '/'
-  },
+module.exports = (env, argv) => {
+  const isProduction = argv.mode === 'production';
+  
+  return {
+    entry: './src/main.ts',
+    output: {
+      path: path.resolve(__dirname, 'dist'),
+      filename: 'bundle.js',
+      clean: true,
+      publicPath: isProduction ? '/blast-game/' : '/'
+    },
   resolve: {
     extensions: ['.ts', '.js', '.json'],
     alias: {
@@ -97,4 +100,5 @@ module.exports = {
   optimization: {
     splitChunks: false
   }
+  };
 };
