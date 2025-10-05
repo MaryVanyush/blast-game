@@ -1,6 +1,6 @@
 # 🎮 Blast Game - TypeScript + Cocos Creator 2.4.x
 
-[Здесь можно поиграть]([https://example.com](https://maryvanyush.github.io/blast-game/))
+[Здесь можно поиграть](https://maryvanyush.github.io/blast-game/)
 
 ![Image prev](prev.png)
 
