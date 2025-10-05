@@ -1,7 +1,3 @@
-/**
- * Game Types and Interfaces
- * Типы и интерфейсы для игры Blast
- */
 export declare enum TileType {
     STAR_BLUE = "star_blue",
     STAR_GREEN = "star_green",
