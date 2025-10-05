@@ -35,12 +35,12 @@ export class GameManager {
     };
 
     this.tileImages = {
-      [TileType.STAR_BLUE]: 'src/img/block_blue.png',
-      [TileType.STAR_GREEN]: 'src/img/block_green.png',
-      [TileType.STAR_RED]: 'src/img/block_red.png',
-      [TileType.STAR_PURPLE]: 'src/img/block_purpure.png',
-      [TileType.STAR_ORANGE]: 'src/img/block_yellow.png',
-      [TileType.BOMB]: 'src/img/icon_booster_bomb.png'
+      [TileType.STAR_BLUE]: 'img/block_blue.png',
+      [TileType.STAR_GREEN]: 'img/block_green.png',
+      [TileType.STAR_RED]: 'img/block_red.png',
+      [TileType.STAR_PURPLE]: 'img/block_purpure.png',
+      [TileType.STAR_ORANGE]: 'img/block_yellow.png',
+      [TileType.BOMB]: 'img/icon_booster_bomb.png'
     };
 
     this.adapter = CocosWebAdapter.getInstance();
