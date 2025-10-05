@@ -9,9 +9,16 @@
     "start": "webpack serve --mode development --port 8080",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix",
-    "clean": "rimraf dist"
+    "clean": "rimraf dist",
+    "deploy": "gh-pages -d dist"
   },
-  "keywords": ["game", "puzzle", "blast", "typescript", "cocos-creator"],
+  "keywords": [
+    "game",
+    "puzzle",
+    "blast",
+    "typescript",
+    "cocos-creator"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
@@ -23,6 +30,7 @@
     "babel-loader": "^9.1.0",
     "css-loader": "^6.8.0",
     "eslint": "^8.42.0",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.5.0",
     "rimraf": "^5.0.0",
     "style-loader": "^3.3.0",
@@ -31,6 +39,5 @@
     "webpack": "^5.88.0",
     "webpack-cli": "^5.1.0",
     "webpack-dev-server": "^4.15.0"
-  },
-  "dependencies": {}
+  }
 }
