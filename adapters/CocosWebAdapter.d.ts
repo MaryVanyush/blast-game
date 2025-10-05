@@ -1,3 +1,7 @@
+/**
+ * Cocos Creator 2.4.x Web Adapter
+ * Адаптер для работы с Cocos Creator API в веб-среде
+ */
 export declare class CocosWebAdapter {
     private static instance;
     private canvas;
